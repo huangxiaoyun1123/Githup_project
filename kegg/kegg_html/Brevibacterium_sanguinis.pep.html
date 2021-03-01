@@ -1,0 +1,1693 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>KEGG Automatic Annotation Server</title>
+        <link rel="stylesheet" href="/tools/kaas/style.css" type="text/css">
+ </head>
+
+ <body>
+
+ <div id="logo">
+ <a href="/tools/kaas/" target="_top">
+ <img src="/tools/kaas/img/aas.gif" width="160" height="60" alt="kaas_logo" border="0">
+ </a>
+ </div>
+
+  <h1>Pathway Mapping<br>(1610356547, Brevibacterium_sanguinis.pep)</h1>
+
+  <!-- begin{announce} -->
+  <!--
+  <br clear="all">
+  <div style="color:red;margin-left:30px;margin-bottom:10px;">
+  For system maintenance, KAAS service will not be available during the following time.<br>
+  Oct 30 (Fri) 18:00:00 - Oct 31 (Sat) 18:00:00 (JST) 2015.<br>
+  All jobs runnning at Oct 30 (Fri) 18:00:00 will be terminated.<br>
+  Sorry for the inconveniences.
+  </div>
+  -->
+  <!-- end{announce} -->
+
+  <div class="menu">
+   <ul>
+    <li><a href="/tools/kaas/" target="_top">Home</a></li>
+    <li class="help"><a href="/tools/kaas/help.html" target="_top">Help</a></li>
+   </ul>
+  </div>
+
+  <div id="main">
+
+   <div class="ko_menu">
+
+    <ul>
+     <li>[<a href='kaas_main?mode=user&amp;id=1610356547&amp;key=Hc2IiYZB'>Query list</a>]</li>
+     <li>[<a href='kaas_main?mode=result&amp;id=1610356547&amp;key=Hc2IiYZB'>KO list</a>]</li>
+     <li>[<a href='kaas_main?mode=brite&amp;id=1610356547&amp;key=Hc2IiYZB'>BRITE hierarchies</a>]</li>
+      <li>[Pathway map]</li>
+      <li>[<a href='kaas_main?mode=threshold&amp;id=1610356547&amp;key=Hc2IiYZB'>Threshold change</a>]</li>
+      <li>[<a href='/tools/kaas/files/dl/1610356547/query.ko'>Download KO list</a>]</li>
+    </ul>
+   </div>
+
+   <br>
+<p class='fst'>Color Objects in KEGG Pathways  <span style="color:FF3333;font-size:13px;font-weight:normal;"><i>New ver.</i></span></p>
+<form enctype="multipart/form-data" method="post" action="https://www.genome.jp/kegg-bin/color_pathway_object">
+<input type="hidden" name="org_name" value="ko">
+<input type="hidden" name="sort"  value="pathway">
+<p class="trd"><b>Default bgcolor:</b>
+<input type="text" name="default" value="#bfffbf"> (to highlight the asigned KOs) </p>
+<p class="trd"><b>Genes bgcolor:</b>
+<input type="text" name="reference" value="white"> (to change the default color of blue) </p>
+<p class="trd"><input type="submit" class="button" value="Exec"></p>
+
+<input type="hidden" name="unclassified" value="K02237
+K00151
+K02078
+K07693
+K02860
+K03587
+K07793
+K01596
+K02073
+K01875
+K00645
+K02428
+K00891
+K04564
+K03733
+K01079
+K03596
+K00936
+K08680
+K13288
+K24083
+K02346
+K19577
+K03980
+K03453
+K00797
+K12503
+K02044
+K07665
+K00997
+K02843
+K23753
+K06381
+K06886
+K00390
+K03593
+K01870
+K01911
+K00133
+K05364
+K08193
+K05304
+K02004
+K00688
+K05568
+K03308
+K00111
+K00886
+K02275
+K02481
+K15525
+K01918
+K02520
+K01928
+K03417
+K00859
+K01462
+K01894
+K00554
+K02992
+K23264
+K01104
+K02838
+K09015
+K12658
+K02341
+K03040
+K03550
+K00640
+K13292
+K08351
+K12256
+K00281
+K08223
+K01808
+K00995
+K03601
+K05603
+K01845
+K01876
+K01273
+K02897
+K02348
+K00868
+K18384
+K00873
+K10002
+K00971
+K06223
+K13993
+K00372
+K03186
+K15583
+K01776
+K05343
+K03106
+K00042
+K02342
+K06996
+K07054
+K06147
+K01681
+K03118
+K02168
+K00147
+K02899
+K06199
+K06048
+K13703
+K04485
+K07442
+K07316
+K09118
+K05245
+K02863
+K21062
+K00728
+K01924
+K01425
+K02619
+K03549
+K02518
+K00763
+K01895
+K21393
+K01284
+K02041
+K00712
+K03863
+K02470
+K00004
+K22293
+K03553
+K13529
+K08172
+K03595
+K14161
+K00821
+K01616
+K13953
+K01760
+K03687
+K01956
+K01552
+K14696
+K03501
+K22187
+K05499
+K06196
+K00558
+K00940
+K02967
+K00457
+K07175
+K02217
+K05838
+K03086
+K00392
+K22468
+K01609
+K02913
+K03707
+K02553
+K00660
+K03655
+K02926
+K07636
+K16925
+K01625
+K03306
+K02434
+K16169
+K02112
+K03584
+K02039
+K01467
+K08139
+K01028
+K06215
+K18703
+K08323
+K02069
+K00231
+K21600
+K09761
+K00266
+K00259
+K01637
+K15738
+K01495
+K02257
+K02499
+K03465
+K01703
+K20814
+K03781
+K01782
+K13573
+K06978
+K00648
+K02106
+K01533
+K03719
+K10979
+K01724
+K00930
+K01890
+K03272
+K14162
+K15510
+K02016
+K01585
+K02018
+K02013
+K19421
+K13877
+K01159
+K18609
+K05712
+K08972
+K02886
+K00805
+K01657
+K01689
+K03217
+K06180
+K07748
+K17063
+K06191
+K00013
+K02355
+K05548
+K00694
+K04761
+K02433
+K02552
+K14743
+K01998
+K06916
+K02846
+K22708
+K19710
+K00275
+K00305
+K02906
+K08997
+K00619
+K21401
+K21900
+K02435
+K08281
+K06187
+K00306
+K01775
+K00057
+K22129
+K03432
+K02356
+K01446
+K08093
+K03430
+K05605
+K02624
+K00241
+K02887
+K06153
+K00791
+K09858
+K15975
+K00088
+K07107
+K01750
+K02892
+K18940
+K07229
+K02469
+K02895
+K06925
+K01005
+K03789
+K07335
+K00963
+K01560
+K00788
+K18456
+K00059
+K00052
+K13370
+K07160
+K00547
+K02939
+K03642
+K01880
+K05847
+K17686
+K01997
+K05794
+K18567
+K03709
+K02948
+K03979
+K23683
+K01903
+K07056
+K00384
+K06889
+K03750
+K07478
+K03110
+K00946
+K01835
+K01872
+K23253
+K03798
+K01424
+K02493
+K03437
+K07146
+K03799
+K07259
+K07090
+K13038
+K02988
+K03688
+K03929
+K00020
+K16238
+K02529
+K02884
+K03649
+K03544
+K13482
+K03711
+K09013
+K14166
+K23374
+K03218
+K15724
+K07222
+K05366
+K00941
+K13654
+K01620
+K11717
+K16557
+K02030
+K01608
+K01754
+K00820
+K01129
+K00826
+K09760
+K02026
+K09767
+K02108
+K05825
+K05845
+K03076
+K01489
+K03743
+K07029
+K03928
+K02027
+K06324
+K01439
+K09710
+K01626
+K07080
+K01707
+K01662
+K01770
+K00161
+K19002
+K06924
+K11733
+K22766
+K10251
+K10843
+K02902
+K00153
+K00836
+K02032
+K12240
+K01593
+K04517
+K23187
+K01246
+K00014
+K03296
+K01738
+K03727
+K03671
+K00845
+K07155
+K00262
+K02053
+K00567
+K04077
+K01749
+K11476
+K21749
+K03070
+K00681
+K02274
+K01187
+K01069
+K03976
+K03885
+K03566
+K02609
+K06207
+K02003
+K23186
+K09861
+K06902
+K04047
+K18914
+K02283
+K21344
+K02357
+K01255
+K01735
+K15303
+K12941
+K01066
+K00075
+K05835
+K02111
+K00864
+K14052
+K00232
+K11147
+K13566
+K12993
+K03299
+K03499
+K07030
+K00655
+K00850
+K02612
+K00982
+K21885
+K01011
+K02837
+K01466
+K11065
+K02002
+K01000
+K07093
+K03310
+K06949
+K15526
+K03101
+K02081
+K02933
+K14393
+K03424
+K01889
+K08716
+K00627
+K06941
+K22895
+K00375
+K20469
+K10536
+K01214
+K09959
+K03307
+K22736
+K02956
+K10805
+K00641
+K02990
+K00479
+K01783
+K00969
+K01753
+K23537
+K03723
+K01869
+K06891
+K05896
+K01810
+K16785
+K00046
+K09772
+K01902
+K21686
+K01303
+K00600
+K10773
+K00215
+K01207
+K00163
+K21481
+K01507
+K08224
+K09571
+K11069
+K11071
+K02864
+K00931
+K07776
+K06895
+K01905
+K01523
+K02040
+K00566
+K00033
+K01772
+K03282
+K13609
+K03551
+K02446
+K03695
+K01791
+K00389
+K22044
+K03524
+K02959
+K10040
+K10009
+K07098
+K07095
+K00773
+K00058
+K03647
+K03431
+K23228
+K07727
+K01153
+K02031
+K20074
+K07284
+K01966
+K07127
+K01295
+K02878
+K06188
+K01055
+K00666
+K03762
+K06976
+K00265
+K00878
+K02109
+K18476
+K03311
+K05020
+K05810
+K03212
+K06168
+K00097
+K01354
+K22444
+K01714
+K00789
+K00116
+K01426
+K01322
+K00796
+K03705
+K12444
+K08681
+K01008
+K20742
+K00819
+K06994
+K00019
+K17675
+K02963
+K02034
+K19304
+K17836
+K01239
+K02033
+K06221
+K00459
+K01796
+K13875
+K01599
+K00927
+K01400
+K07124
+K03890
+K08173
+K07486
+K23775
+K00322
+K09125
+K01696
+K16135
+K03529
+K13481
+K01358
+K07507
+K00684
+K01921
+K01816
+K02358
+K01142
+K00015
+K03545
+K04518
+K01092
+K23997
+K07053
+K02551
+K03924
+K01955
+K00130
+K03531
+K00758
+K01912
+K07089
+K00937
+K00108
+K01262
+K10716
+K03402
+K03648
+K00510
+K01464
+K07391
+K24204
+K02303
+K07305
+K01556
+K01915
+K10439
+K01126
+K00365
+K10037
+K13954
+K02909
+K01421
+K03704
+K11637
+K03654
+K01814
+K20023
+K03684
+K01778
+K00857
+K13542
+K07738
+K09472
+K09128
+K05770
+K00208
+K18209
+K01740
+K05799
+K12574
+K00121
+K01868
+K03527
+K02072
+K15582
+K02611
+K00919
+K00800
+K08296
+K01586
+K13831
+K01736
+K08299
+K07042
+K01494
+K19425
+K02968
+K00806
+K00239
+K03392
+K10973
+K00759
+K03469
+K03644
+K07736
+K03722
+K00302
+K07979
+K02548
+K00766
+K07246
+K12132
+K14652
+K11617
+K03470
+K21498
+K07058
+K02071
+K22135
+K03455
+K03496
+K01487
+K03043
+K11070
+K01640
+K01712
+K00957
+K07148
+K07177
+K02115
+K00285
+K00657
+K04092
+K06958
+K01236
+K23518
+K03897
+K23256
+K14445
+K01056
+K03074
+K02907
+K03701
+K00793
+K03588
+K14977
+K01885
+K03530
+K03801
+K11752
+K07448
+K04063
+K03492
+K00658
+K00703
+K23265
+K01434
+K14267
+K03325
+K15268
+K01692
+K04750
+K00343
+K02867
+K08324
+K03321
+K03500
+K00426
+K12410
+K01480
+K17883
+K00858
+K01874
+K00854
+K07300
+K03761
+K06980
+K00128
+K02015
+K05685
+K21064
+K01584
+K03449
+K02961
+K02890
+K12368
+K01999
+K00074
+K01443
+K03686
+K06178
+K23536
+K16301
+K05559
+K19124
+K04763
+K11618
+K03433
+K02919
+K21700
+K01933
+K01695
+K00943
+K07670
+K01834
+K09936
+K19265
+K11085
+K03523
+K03284
+K03602
+K07816
+K02077
+K01433
+K06960
+K03925
+K07701
+K00573
+K01356
+K06131
+K02483
+K00767
+K07386
+K07118
+K07010
+K03526
+K19430
+K01883
+K13444
+K14392
+K02825
+K02563
+K02438
+K00123
+K01256
+K02001
+K11749
+K02881
+K03300
+K02623
+K06177
+K13247
+K06911
+K01939
+K08221
+K00975
+K02622
+K00124
+K03892
+K02337
+K22551
+K09764
+K03685
+K07304
+K02614
+K02871
+K00790
+K07012
+K04043
+K00827
+K08316
+K00991
+K02954
+K02549
+K06942
+K01733
+K07460
+K10563
+K09458
+K11754
+K16048
+K10441
+K03800
+K15634
+K03891
+K11102
+K04096
+K00303
+K00762
+K01938
+K02316
+K01561
+K10440
+K07040
+K01647
+K06173
+K03457
+K01679
+K00529
+K03271
+K03768
+K02343
+K11991
+K07112
+K00138
+K02075
+K02437
+K03521
+K02566
+K00847
+K11177
+K09903
+K01840
+K01658
+K01881
+K02503
+K01607
+K02874
+K18455
+K03294
+K00276
+K12982
+K11753
+K02876
+K03436
+K03977
+K00109
+K11755
+K03969
+K02028
+K00099
+K01907
+K21602
+K02835
+K02113
+K01990
+K13641
+K11175
+K00980
+K00632
+K01653
+K02613
+K02036
+K14063
+K01488
+K00611
+K07258
+K01929
+K01267
+K11996
+K15521
+K01451
+K00145
+K07566
+K00274
+K03790
+K13527
+K02510
+K01989
+K04066
+K00252
+K03652
+K09809
+K03215
+K00299
+K03111
+K02259
+K21832
+K08368
+K01867
+K07749
+K03631
+K00453
+K10010
+K01866
+K08081
+K01892
+K13866
+K22043
+K01638
+K09691
+K10039
+K03930
+K03604
+K12583
+K00833
+K00134
+K01468
+K13640
+K05846
+K01755
+K03522
+K02994
+K08999
+K01661
+K02276
+K07071
+K02010
+K06888
+K18955
+K07454
+K03639
+K13571
+K04567
+K24120
+K04488
+K00697
+K19239
+K03088
+K22010
+K00240
+K09684
+K06016
+K22296
+K15783
+K07133
+K02834
+K00954
+K03574
+K19222
+K11615
+K05567
+K03100
+K02479
+K02025
+K06217
+K13821
+K00674
+K10112
+K00254
+K00481
+K02946
+K05832
+K03072
+K11068
+K00544
+K03657
+K22297
+K00852
+K00761
+K04075
+K19427
+K03741
+K07465
+K00948
+K02836
+K01992
+K02020
+K17830
+K00760
+K01505
+K14260
+K02037
+K01520
+K00525
+K02888
+K04042
+K02965
+K07077
+K00526
+K01995
+K03149
+K04727
+K18800
+K06154
+K06117
+K06915
+K01873
+K01857
+K03579
+K10823
+K05888
+K05596
+K02064
+K02074
+K02472
+K23227
+K07149
+K13643
+K08167
+K03578
+K01465
+K00382
+K03320
+K00435
+K21119
+K11625
+K03575
+K05786
+K01515
+K15520
+K16147
+K12234
+K07778
+K00012
+K01940
+K00602
+K00077
+K01897
+K03564
+K01698
+K23138
+K07240
+K21430
+K00001
+K02986
+K00620
+K00140
+K16044
+K01693
+K01265
+K02313
+K02618
+K13572
+K07032
+K00104
+K02426
+K03183
+K01756
+K01576
+K00615
+K00135
+K04768
+K02511
+K02314
+K00242
+K00945
+K02509
+K02114
+K00449
+K01133
+K01448
+K21395
+K03782
+K19591
+K00018
+K01644
+K00606
+K03919
+K01887
+K07689
+K11410
+K23258
+K00865
+K02952
+K02340
+K00939
+K01652
+K01809
+K03438
+K19176
+K00027
+K07192
+K01704
+K03322
+K00031
+K03702
+K23269
+K07319
+K14657
+K00955
+K01524
+K09796
+K03273
+K00700
+K21734
+K00425
+K02501
+K00162
+K09781
+K09009
+K05592
+K00286
+K03625
+K03497
+K23535
+K06200
+K05833
+K19745
+K00661
+K08369
+K01752
+K03785
+K01937
+K03629
+K11212
+K01908
+K03060
+K11178
+K03786
+K00867
+K01972
+K00148
+K01784
+K01706
+K16692
+K01945
+K11744
+K01649
+K04487
+K03305
+K09927
+K01720
+K00156
+K02935
+K01916
+K04104
+K11735
+K16165
+K07503
+K02238
+K21604
+K11072
+K13789
+K14466
+K00950
+K01969
+K00053
+K06346
+K00609
+K21405
+K22934
+K02029
+K03710
+K03824
+K07795
+K07082
+K02042
+K21742
+K15342
+K00297
+K03797
+K19576
+K01619
+K00564
+K01858
+K01491
+K00304
+K04883
+K07447
+K13787
+K03889
+K09477
+K00101
+K02945
+K01996
+K03635
+K11928
+K07045
+K24163
+K01739
+K03426
+K02879
+K02335
+K02338
+K00817
+K01925
+K01802
+K03718
+K02379
+K21688
+K13950
+K03498
+K05516
+K01971
+K00942
+K14155
+K00981
+K00616
+K14664
+K01803
+K20877
+K15371
+K00003
+K03664
+K06442
+K01591
+K04078
+K10914
+K09812
+K12942
+K03427
+K05823
+K06901
+K00970
+K03624
+K02519
+K03153
+K15629
+K00831
+K07399
+K07684
+K11751
+K02500
+K03177
+K01257
+K00928
+K16136
+K01087
+K02982
+K11206
+K08300
+K03216
+K07101
+K06024
+K03168
+K01745
+K22108
+K00626
+K01455
+K00962
+K00874
+K07654
+K09762
+K05602
+K02110
+K02931
+K09811
+K01409
+K00036
+K01823
+K02851
+K00764
+K11921
+K09951
+K03628
+K02996
+K00605
+K09690
+K09014
+K16013
+K14191
+K03637
+K23842
+K00344
+K05520
+K01042
+K22278
+K05560
+K02601
+K02528
+K18118
+K03783
+K00008
+K03833
+K04762
+K13633
+K01589
+K00040
+K07393
+K01029
+K01588
+K02038
+K00549
+K21147
+K03696
+K20036
+K22408
+K20201
+K01053
+K08884
+K00812
+K03046
+K01926
+K01251
+K02035
+K00830
+K02000
+K03517
+K01624
+K02904
+K01091
+K00851
+K06287
+K02221
+K02950
+K07250
+K10038
+K10209
+K24206
+K01139
+K00278
+K16264
+K06133
+K02610
+K11263
+K13483
+K06997
+K00989
+K00604
+K01951
+K03665
+K01673
+K04771
+K00876
+K01687
+K00448
+K07402
+K03820
+K06044
+K00872
+K22024
+K01154
+K03466
+K11623
+K03303
+K00765
+K01958
+K03703
+K00137
+K11939
+K17735
+K12972
+K06877
+K02484
+"></form>
+<p class='fst'> <p class='snd'> </p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00010/reference%3dwhite/default%3d%23bfffbf/K00845/K01810/K00850/K02446/K01624/K01803/K00134/K00927/K01834/K15634/K01689/K00873/K00163/K00161/K00162/K00627/K00382/K00121/K13953/K13954/K00001/K00128/K00138/K01895/K01905/K01835/K00886/K01596' target='new'>00010</a> Glycolysis / Gluconeogenesis (28)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00020/reference%3dwhite/default%3d%23bfffbf/K01647/K01681/K00031/K00658/K00382/K01902/K01903/K18118/K00239/K00240/K00241/K00242/K01679/K00116/K01958/K01596/K00163/K00161/K00162/K00627' target='new'>00020</a> Citrate cycle (TCA cycle) (20)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00030/reference%3dwhite/default%3d%23bfffbf/K01810/K00036/K00033/K01783/K00615/K00616/K01808/K08093/K13831/K01619/K00852/K01835/K00948/K01625/K01053/K00851/K00874/K01624/K02446/K00850' target='new'>00030</a> Pentose phosphate pathway (20)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00040/reference%3dwhite/default%3d%23bfffbf/K08323/K00040/K00012/K00963/K13247/K01783/K00854/K00008/K13877/K22187' target='new'>00040</a> Pentose and glucuronate interconversions (10)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00051/reference%3dwhite/default%3d%23bfffbf/K00847/K01809/K01840/K00971/K00850/K02446/K00008/K01624/K01803/K01808/K24204' target='new'>00051</a> Fructose and mannose metabolism (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00052/reference%3dwhite/default%3d%23bfffbf/K01784/K00963/K01835/K00845/K00850/K01187' target='new'>00052</a> Galactose metabolism (6)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00053/reference%3dwhite/default%3d%23bfffbf/K00012/K01053/K00128/K01706/K13875/K13877/K01707/K20023' target='new'>00053</a> Ascorbate and aldarate metabolism (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00500/reference%3dwhite/default%3d%23bfffbf/K01187/K00963/K00694/K00975/K00703/K00700/K00688/K02438/K05343/K16147/K01214/K06044/K01236/K00697/K01087/K22934/K01835/K00845/K01810/K00847' target='new'>00500</a> Starch and sucrose metabolism (20)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00520/reference%3dwhite/default%3d%23bfffbf/K01207/K04042/K05304/K21749/K01791/K02472/K00790/K00075/K03431/K01443/K00847/K00820/K00845/K00886/K01810/K01835/K00963/K00012/K01784/K01840/K00971/K01809/K00975' target='new'>00520</a> Amino sugar and nucleotide sugar metabolism (23)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00620/reference%3dwhite/default%3d%23bfffbf/K01895/K00163/K00161/K00162/K00627/K00382/K00873/K11263/K00128/K00138/K18118/K01905/K00101/K00156/K01069/K12972/K00027/K01958/K00116/K01679/K01596/K01638/K00626/K01649' target='new'>00620</a> Pyruvate metabolism (24)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00630/reference%3dwhite/default%3d%23bfffbf/K01637/K01895/K01638/K01647/K01681/K00626/K01966/K11263/K00104/K03781/K00015/K12972/K00018/K01091/K00830/K01915/K00600/K00281/K00605/K00382/K02437/K01608/K01816/K00042/K00865/K07246/K01625/K00123/K00124/K01433/K01455' target='new'>00630</a> Glyoxylate and dicarboxylate metabolism (31)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00640/reference%3dwhite/default%3d%23bfffbf/K01895/K01908/K01905/K00382/K00232/K19745/K01692/K01782/K05605/K11263/K07250/K01966/K01903/K01902/K00140/K01720/K03417/K00626' target='new'>00640</a> Propanoate metabolism (18)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00650/reference%3dwhite/default%3d%23bfffbf/K00626/K00074/K01782/K01692/K00109/K07246/K00239/K00240/K00241/K00242/K07250/K00135/K08324/K18118/K01640/K01028/K01029/K01907/K00019/K01652/K01653/K00004' target='new'>00650</a> Butanoate metabolism (22)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00660/reference%3dwhite/default%3d%23bfffbf/K01652/K01653/K01903/K01902/K01703/K01704/K00052' target='new'>00660</a> C5-Branched dibasic acid metabolism (7)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00562/reference%3dwhite/default%3d%23bfffbf/K01092/K01858/K16044/K00140/K01803' target='new'>00562</a> Inositol phosphate metabolism (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00190/reference%3dwhite/default%3d%23bfffbf/K00343/K03885/K00239/K00240/K00241/K00242/K03889/K03890/K03891/K02257/K02276/K02274/K02275/K02259/K00425/K00426/K02111/K02112/K02115/K02113/K02114/K02108/K02109/K02110/K01507/K00937/K22468' target='new'>00190</a> Oxidative phosphorylation (27)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00195/reference%3dwhite/default%3d%23bfffbf/K02114/K02112/K02115/K02111/K02113/K02109/K02110/K02108' target='new'>00195</a> Photosynthesis (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00710/reference%3dwhite/default%3d%23bfffbf/K00927/K00134/K01624/K02446/K00615/K01808/K01803/K01783' target='new'>00710</a> Carbon fixation in photosynthetic organisms (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00720/reference%3dwhite/default%3d%23bfffbf/K01958/K01679/K00239/K00240/K00241/K00242/K18209/K01902/K01903/K14466/K00626/K00031/K01681/K01938/K01491/K00297/K01895' target='new'>00720</a> Carbon fixation pathways in prokaryotes (17)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00680/reference%3dwhite/default%3d%23bfffbf/K00148/K00121/K00123/K00124/K00600/K00830/K00018/K01689/K01624/K02446/K00850/K08093/K13831/K01895/K01834/K15634/K00058/K00831/K01079/K11212/K12234' target='new'>00680</a> Methane metabolism (21)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00910/reference%3dwhite/default%3d%23bfffbf/K01455/K00372/K00459/K15371/K00262/K01915/K00265/K00266/K01673' target='new'>00910</a> Nitrogen metabolism (9)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00920/reference%3dwhite/default%3d%23bfffbf/K00299/K00955/K00957/K00390/K00392/K01011/K00640/K01738/K00641/K01739/K20036' target='new'>00920</a> Sulfur metabolism (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00061/reference%3dwhite/default%3d%23bfffbf/K11263/K02078/K00645/K00648/K09458/K00059/K13370/K00208/K01897' target='new'>00061</a> Fatty acid biosynthesis (9)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00062/reference%3dwhite/default%3d%23bfffbf/K10251' target='new'>00062</a> Fatty acid elongation (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00071/reference%3dwhite/default%3d%23bfffbf/K00626/K00632/K01782/K01692/K00232/K00252/K01897/K00529/K00121/K13953/K13954/K00001/K00128' target='new'>00071</a> Fatty acid degradation (13)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00072/reference%3dwhite/default%3d%23bfffbf/K01640/K01028/K01029/K00626/K00019' target='new'>00072</a> Synthesis and degradation of ketone bodies (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00100/reference%3dwhite/default%3d%23bfffbf/K07748' target='new'>00100</a> Steroid biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00120/reference%3dwhite/default%3d%23bfffbf/K01796' target='new'>00120</a> Primary bile acid biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00140/reference%3dwhite/default%3d%23bfffbf/K13370/K10251' target='new'>00140</a> Steroid hormone biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00561/reference%3dwhite/default%3d%23bfffbf/K00865/K00128/K00864/K06117/K00655/K07029/K19002' target='new'>00561</a> Glycerolipid metabolism (7)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00564/reference%3dwhite/default%3d%23bfffbf/K00057/K00111/K00655/K00980/K07029/K01126/K00981/K00995/K06131/K17830' target='new'>00564</a> Glycerophospholipid metabolism (10)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00592/reference%3dwhite/default%3d%23bfffbf/K00232/K00632' target='new'>00592</a> alpha-Linolenic acid metabolism (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01040/reference%3dwhite/default%3d%23bfffbf/K10251/K00232/K10805' target='new'>01040</a> Biosynthesis of unsaturated fatty acids (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00230/reference%3dwhite/default%3d%23bfffbf/K01515/K01835/K00948/K00764/K01945/K11175/K23269/K23264/K23265/K01933/K01589/K01588/K01756/K00602/K00759/K11751/K03783/K01239/K00760/K00088/K00940/K02428/K13481/K13482/K11177/K11178/K13483/K01951/K01487/K00942/K00873/K00525/K00526/K01129/K01139/K01524/K07816/K01939/K01488/K00939/K19710/K00955/K00957/K00365/K07127/K01466/K14977' target='new'>00230</a> Purine metabolism (47)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00240/reference%3dwhite/default%3d%23bfffbf/K01955/K01956/K00609/K01465/K00254/K00762/K01591/K09903/K00940/K01937/K00945/K01494/K00876/K11751/K00761/K02825/K01464/K06016/K00525/K00526/K01520/K03465/K01489/K00758/K03783/K00857/K00943' target='new'>00240</a> Pyrimidine metabolism (27)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00250/reference%3dwhite/default%3d%23bfffbf/K00812/K00278/K01424/K13566/K14260/K00830/K00827/K00259/K01940/K01755/K01939/K01756/K00609/K07250/K00135/K08324/K00265/K00266/K15371/K00262/K13821/K01915/K01955/K01956/K01425/K23265/K00820/K00764' target='new'>00250</a> Alanine, aspartate and glutamate metabolism (28)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00260/reference%3dwhite/default%3d%23bfffbf/K00928/K00133/K00003/K00872/K01733/K01620/K00600/K00830/K00018/K12972/K00865/K01834/K15634/K00058/K00831/K01079/K00274/K00276/K00281/K00605/K00382/K02437/K00827/K00108/K00130/K00544/K00302/K00303/K00305/K00304/K00306/K01752/K01754/K01753/K01695/K01696/K00836/K15783' target='new'>00260</a> Glycine, serine and threonine metabolism (38)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00270/reference%3dwhite/default%3d%23bfffbf/K00640/K01738/K01760/K14155/K00544/K00547/K00549/K00789/K00797/K00558/K01251/K01505/K00928/K00133/K00003/K00641/K01739/K01740/K00826/K00827/K00812/K01011/K01752/K00058/K00831' target='new'>00270</a> Cysteine and methionine metabolism (25)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00280/reference%3dwhite/default%3d%23bfffbf/K00826/K00382/K11410/K01692/K01782/K00632/K01966/K11263/K05605/K00020/K00140/K00128/K07250/K00827/K01969/K01640/K01028/K01029/K01907/K00626' target='new'>00280</a> Valine, leucine and isoleucine degradation (20)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00290/reference%3dwhite/default%3d%23bfffbf/K01754/K01703/K01704/K00052/K01652/K01653/K00053/K01687/K00826/K14260/K01649' target='new'>00290</a> Valine, leucine and isoleucine biosynthesis (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00300/reference%3dwhite/default%3d%23bfffbf/K00003/K00928/K00133/K01714/K00215/K00674/K00821/K14267/K01439/K01778/K01586/K05823/K05825/K01928/K01929' target='new'>00300</a> Lysine biosynthesis (15)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00310/reference%3dwhite/default%3d%23bfffbf/K00658/K00382/K00252/K01692/K01782/K00626/K00137/K07250/K00135/K13609/K00306/K00128' target='new'>00310</a> Lysine degradation (12)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00220/reference%3dwhite/default%3d%23bfffbf/K00611/K01940/K01755/K01425/K23265/K01915/K15371/K00262/K00812/K14260/K00619/K00620/K00930/K00145/K00821' target='new'>00220</a> Arginine biosynthesis (15)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00330/reference%3dwhite/default%3d%23bfffbf/K01584/K01585/K01480/K10536/K00797/K12256/K00128/K00137/K00657/K00274/K01426/K09472/K00819/K00286/K13821/K01750/K00931/K00147/K00812/K18384/K12658/K21062' target='new'>00330</a> Arginine and proline metabolism (22)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00340/reference%3dwhite/default%3d%23bfffbf/K00765/K01523/K11755/K01814/K02501/K02500/K01693/K00817/K05602/K00013/K01745/K01712/K01468/K05603/K00128/K00274' target='new'>00340</a> Histidine metabolism (16)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00350/reference%3dwhite/default%3d%23bfffbf/K00812/K00817/K00457/K01593/K00274/K00276/K00121/K13953/K13954/K00001/K00151/K02509/K02510/K00135/K16165' target='new'>00350</a> Tyrosine metabolism (15)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00360/reference%3dwhite/default%3d%23bfffbf/K01593/K00276/K00274/K01912/K02614/K02609/K02610/K02611/K02612/K02613/K02618/K01692/K00074/K00812/K00817/K00457/K00285/K03782/K01426/K01451/K00529/K05712' target='new'>00360</a> Phenylalanine metabolism (22)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00380/reference%3dwhite/default%3d%23bfffbf/K00453/K01556/K03392/K00658/K00382/K00252/K01692/K01782/K00626/K01593/K00274/K00128/K01426/K03781/K03782' target='new'>00380</a> Tryptophan metabolism (15)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00400/reference%3dwhite/default%3d%23bfffbf/K01626/K01735/K03785/K03786/K00014/K00891/K00800/K01736/K01657/K01658/K00766/K01609/K01695/K01696/K04092/K04517/K04518/K00812/K00817' target='new'>00400</a> Phenylalanine, tyrosine and tryptophan biosynthesis (19)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00410/reference%3dwhite/default%3d%23bfffbf/K07250/K00276/K00128/K00137/K01918/K01464/K05605/K01692/K01782/K00232/K00140' target='new'>00410</a> beta-Alanine metabolism (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00430/reference%3dwhite/default%3d%23bfffbf/K00681/K00259/K15371' target='new'>00430</a> Taurine and hypotaurine metabolism (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00440/reference%3dwhite/default%3d%23bfffbf/K03430' target='new'>00440</a> Phosphonate and phosphinate metabolism (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00450/reference%3dwhite/default%3d%23bfffbf/K01739/K01760/K14155/K00549/K11717/K00384/K00955/K00957/K01008/K01042/K01874' target='new'>00450</a> Selenocompound metabolism (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00460/reference%3dwhite/default%3d%23bfffbf/K00681/K01424/K00600/K01455' target='new'>00460</a> Cyanoamino acid metabolism (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00471/reference%3dwhite/default%3d%23bfffbf/K01425/K23265/K01776/K01924/K01925' target='new'>00471</a> D-Glutamine and D-glutamate metabolism (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00473/reference%3dwhite/default%3d%23bfffbf/K01775/K01921' target='new'>00473</a> D-Alanine metabolism (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00480/reference%3dwhite/default%3d%23bfffbf/K00681/K07160/K06048/K01255/K01256/K00031/K00033/K00036/K00797' target='new'>00480</a> Glutathione metabolism (9)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00515/reference%3dwhite/default%3d%23bfffbf/K00728' target='new'>00515</a> Mannose type O-glycan biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00514/reference%3dwhite/default%3d%23bfffbf/K00728' target='new'>00514</a> Other types of O-glycan biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00531/reference%3dwhite/default%3d%23bfffbf/K01207' target='new'>00531</a> Glycosaminoglycan degradation (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00540/reference%3dwhite/default%3d%23bfffbf/K03271/K03272/K21344/K03273/K02843' target='new'>00540</a> Lipopolysaccharide biosynthesis (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00541/reference%3dwhite/default%3d%23bfffbf/K00963/K01784/K00012/K01809/K01840/K00971/K04042/K01791/K02472' target='new'>00541</a> O-Antigen nucleotide sugar biosynthesis (9)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00550/reference%3dwhite/default%3d%23bfffbf/K00790/K00075/K01924/K01925/K01928/K01921/K01929/K00806/K06153/K01000/K02563/K05366/K03587/K05364/K07258/K07259' target='new'>00550</a> Peptidoglycan biosynthesis (16)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00572/reference%3dwhite/default%3d%23bfffbf/K02851' target='new'>00572</a> Arabinogalactan biosynthesis - Mycobacterium (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00730/reference%3dwhite/default%3d%23bfffbf/K00941/K04487/K03153/K01662/K03149/K00878/K00788/K00946/K06949/K00939/K03707' target='new'>00730</a> Thiamine metabolism (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00740/reference%3dwhite/default%3d%23bfffbf/K14652/K11752/K21064/K00793/K11753/K00299' target='new'>00740</a> Riboflavin metabolism (6)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00750/reference%3dwhite/default%3d%23bfffbf/K00275/K00868/K00831/K00097/K01733/K06215/K08681/K18609' target='new'>00750</a> Vitamin B6 metabolism (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00760/reference%3dwhite/default%3d%23bfffbf/K00278/K03517/K00767/K00763/K03783/K11751/K00969/K03426/K01916/K03743/K01239/K08281/K12410/K00858/K00322/K00135/K08324' target='new'>00760</a> Nicotinate and nicotinamide metabolism (17)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00770/reference%3dwhite/default%3d%23bfffbf/K01652/K01653/K00053/K01687/K00606/K00077/K01918/K00867/K13038/K00954/K00859/K00997/K06133/K00826/K01464/K00128' target='new'>00770</a> Pantothenate and CoA biosynthesis (16)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00780/reference%3dwhite/default%3d%23bfffbf/K09458/K00059/K00208/K00833/K03524/K08351' target='new'>00780</a> Biotin metabolism (6)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00785/reference%3dwhite/default%3d%23bfffbf/K03801/K03644/K03800' target='new'>00785</a> Lipoic acid metabolism (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00790/reference%3dwhite/default%3d%23bfffbf/K01495/K00950/K00796/K11754/K14652/K13950/K02619/K01724/K03639/K03637/K03635/K03750' target='new'>00790</a> Folate biosynthesis (12)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00670/reference%3dwhite/default%3d%23bfffbf/K01938/K01491/K00600/K11175/K00602/K00604/K00605/K03465/K01433/K00297' target='new'>00670</a> One carbon pool by folate (10)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00830/reference%3dwhite/default%3d%23bfffbf/K00121/K13953/K00001/K11147' target='new'>00830</a> Retinol metabolism (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00860/reference%3dwhite/default%3d%23bfffbf/K01885/K01845/K01698/K01749/K01599/K00231/K01772/K00435/K13542/K02303/K02257/K02259/K00510' target='new'>00860</a> Porphyrin and chlorophyll metabolism (13)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00130/reference%3dwhite/default%3d%23bfffbf/K03186/K18800/K03183/K02552/K02551/K08680/K02549/K01911/K01661/K19222/K02548/K00457' target='new'>00130</a> Ubiquinone and other terpenoid-quinone biosynthesis (12)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00900/reference%3dwhite/default%3d%23bfffbf/K01662/K00099/K00991/K00919/K01770/K03526/K03527/K00626/K01823/K13789/K13787/K12503/K00805/K00806' target='new'>00900</a> Terpenoid backbone biosynthesis (14)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00906/reference%3dwhite/default%3d%23bfffbf/K10209' target='new'>00906</a> Carotenoid biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00981/reference%3dwhite/default%3d%23bfffbf/K00128' target='new'>00981</a> Insect hormone biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00908/reference%3dwhite/default%3d%23bfffbf/K00791' target='new'>00908</a> Zeatin biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00903/reference%3dwhite/default%3d%23bfffbf/K00128/K01692/K01782' target='new'>00903</a> Limonene and pinene degradation (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00281/reference%3dwhite/default%3d%23bfffbf/K01640/K00632/K01692/K01782' target='new'>00281</a> Geraniol degradation (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01051/reference%3dwhite/default%3d%23bfffbf/K00615' target='new'>01051</a> Biosynthesis of ansamycins (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01053/reference%3dwhite/default%3d%23bfffbf/K02552/K12240' target='new'>01053</a> Biosynthesis of siderophore group nonribosomal peptides (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00940/reference%3dwhite/default%3d%23bfffbf/K03782/K03186' target='new'>00940</a> Phenylpropanoid biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00941/reference%3dwhite/default%3d%23bfffbf/K00660' target='new'>00941</a> Flavonoid biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00901/reference%3dwhite/default%3d%23bfffbf/K01593' target='new'>00901</a> Indole alkaloid biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00950/reference%3dwhite/default%3d%23bfffbf/K00812/K01593/K00274/K00276' target='new'>00950</a> Isoquinoline alkaloid biosynthesis (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00960/reference%3dwhite/default%3d%23bfffbf/K00276/K08081/K00812/K00817/K13609' target='new'>00960</a> Tropane, piperidine and pyridine alkaloid biosynthesis (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00232/reference%3dwhite/default%3d%23bfffbf/K00365' target='new'>00232</a> Caffeine metabolism (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00965/reference%3dwhite/default%3d%23bfffbf/K01593' target='new'>00965</a> Betalain biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00966/reference%3dwhite/default%3d%23bfffbf/K01703/K00826' target='new'>00966</a> Glucosinolate biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00311/reference%3dwhite/default%3d%23bfffbf/K01434/K17836' target='new'>00311</a> Penicillin and cephalosporin biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00332/reference%3dwhite/default%3d%23bfffbf/K00931/K00147' target='new'>00332</a> Carbapenem biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00261/reference%3dwhite/default%3d%23bfffbf/K00955/K00957/K00928/K00133/K01714/K00215' target='new'>00261</a> Monobactam biosynthesis (6)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00521/reference%3dwhite/default%3d%23bfffbf/K00845/K01835/K01858/K01092' target='new'>00521</a> Streptomycin biosynthesis (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00524/reference%3dwhite/default%3d%23bfffbf/K00845' target='new'>00524</a> Neomycin, kanamycin and gentamicin biosynthesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00401/reference%3dwhite/default%3d%23bfffbf/K04517/K00812/K00817' target='new'>00401</a> Novobiocin biosynthesis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00405/reference%3dwhite/default%3d%23bfffbf/K01657/K01658' target='new'>00405</a> Phenazine biosynthesis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00333/reference%3dwhite/default%3d%23bfffbf/K00645/K00059/K00208' target='new'>00333</a> Prodigiosin biosynthesis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00998/reference%3dwhite/default%3d%23bfffbf/K02078' target='new'>00998</a> Biosynthesis of various secondary metabolites - part 2 (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00997/reference%3dwhite/default%3d%23bfffbf/K23374/K03897' target='new'>00997</a> Biosynthesis of various secondary metabolites - part 3 (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00362/reference%3dwhite/default%3d%23bfffbf/K01055/K00632/K00448/K00449/K01857/K01607/K00481/K01782/K00252/K01692/K00074/K00626' target='new'>00362</a> Benzoate degradation (12)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00627/reference%3dwhite/default%3d%23bfffbf/K01426/K01576/K03186/K03863/K01692' target='new'>00627</a> Aminobenzoate degradation (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00625/reference%3dwhite/default%3d%23bfffbf/K13953/K13954/K00001/K00121/K00128/K00148/K01561/K01560' target='new'>00625</a> Chloroalkane and chloroalkene degradation (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00361/reference%3dwhite/default%3d%23bfffbf/K01560/K01561' target='new'>00361</a> Chlorocyclohexane and chlorobenzene degradation (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00642/reference%3dwhite/default%3d%23bfffbf/K00632' target='new'>00642</a> Ethylbenzene degradation (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00643/reference%3dwhite/default%3d%23bfffbf/K01426' target='new'>00643</a> Styrene degradation (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00930/reference%3dwhite/default%3d%23bfffbf/K01053/K01692/K01782' target='new'>00930</a> Caprolactam degradation (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00626/reference%3dwhite/default%3d%23bfffbf/K13953/K13954/K00001/K00121' target='new'>00626</a> Naphthalene degradation (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00624/reference%3dwhite/default%3d%23bfffbf/K00448/K00449' target='new'>00624</a> Polycyclic aromatic hydrocarbon degradation (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00984/reference%3dwhite/default%3d%23bfffbf/K16048' target='new'>00984</a> Steroid degradation (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00980/reference%3dwhite/default%3d%23bfffbf/K15303/K00121/K13953/K00001' target='new'>00980</a> Metabolism of xenobiotics by cytochrome P450 (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00982/reference%3dwhite/default%3d%23bfffbf/K00121/K13953/K00001/K00274' target='new'>00982</a> Drug metabolism - cytochrome P450 (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00983/reference%3dwhite/default%3d%23bfffbf/K00760/K00088/K01951/K01489/K00758/K01464/K00876/K00857/K00940/K01520/K03782' target='new'>00983</a> Drug metabolism - other enzymes (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03020/reference%3dwhite/default%3d%23bfffbf/K03040/K03043/K03046/K03060' target='new'>03020</a> RNA polymerase (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03022/reference%3dwhite/default%3d%23bfffbf/K10843' target='new'>03022</a> Basal transcription factors (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03010/reference%3dwhite/default%3d%23bfffbf/K02945/K02967/K02982/K02986/K02988/K02990/K02992/K02994/K02996/K02946/K02948/K02950/K02952/K02954/K02956/K02959/K02961/K02963/K02965/K02968/K02863/K02886/K02906/K02926/K02931/K02933/K02935/K02939/K02864/K02867/K02871/K02874/K02876/K02878/K02879/K02881/K02884/K02887/K02888/K02890/K02892/K02895/K02897/K02899/K02902/K02904/K02907/K02909/K02913/K02919' target='new'>03010</a> Ribosome (50)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko00970/reference%3dwhite/default%3d%23bfffbf/K01885/K02433/K02434/K02435/K01872/K01876/K01880/K01868/K01875/K01042/K01883/K01874/K00604/K01873/K01869/K01870/K04567/K01887/K01881/K01892/K01889/K01890/K01866/K01867' target='new'>00970</a> Aminoacyl-tRNA biosynthesis (24)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03008/reference%3dwhite/default%3d%23bfffbf/K03685/K13288' target='new'>03008</a> Ribosome biogenesis in eukaryotes (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03060/reference%3dwhite/default%3d%23bfffbf/K03076/K03072/K03074/K03217/K03070/K03106/K03110/K03118/K03100/K03101' target='new'>03060</a> Protein export (10)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04141/reference%3dwhite/default%3d%23bfffbf/K13993' target='new'>04141</a> Protein processing in endoplasmic reticulum (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04122/reference%3dwhite/default%3d%23bfffbf/K04487/K01011/K11996/K00566/K03635/K03639/K21147/K03637' target='new'>04122</a> Sulfur relay system (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03050/reference%3dwhite/default%3d%23bfffbf/K13527/K03432/K03433' target='new'>03050</a> Proteasome (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03018/reference%3dwhite/default%3d%23bfffbf/K08300/K01689/K00962/K05592/K03654/K03628/K12574/K00850/K04043/K04077/K00937/K22468/K00970' target='new'>03018</a> RNA degradation (13)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03030/reference%3dwhite/default%3d%23bfffbf/K02342/K02337/K02343/K02341/K02340/K02338/K02314/K02316/K03111/K03469/K03470/K02335/K01972' target='new'>03030</a> DNA replication (13)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03410/reference%3dwhite/default%3d%23bfffbf/K10563/K10773/K13529/K01246/K03649/K03648/K03575/K03652/K01142/K02335/K01972' target='new'>03410</a> Base excision repair (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03420/reference%3dwhite/default%3d%23bfffbf/K03723/K03701/K03702/K03703/K03657/K02335/K01972/K10843' target='new'>03420</a> Nucleotide excision repair (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03430/reference%3dwhite/default%3d%23bfffbf/K03657/K03601/K03602/K03111/K02337/K02338/K02343/K02340/K02341/K02342/K01972/K06223' target='new'>03430</a> Mismatch repair (12)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03440/reference%3dwhite/default%3d%23bfffbf/K03111/K03629/K03584/K06187/K03553/K02335/K03550/K03551/K01159/K03655/K02337/K02338/K02343/K02340/K02341/K02342/K04066' target='new'>03440</a> Homologous recombination (17)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03450/reference%3dwhite/default%3d%23bfffbf/K10979/K01971' target='new'>03450</a> Non-homologous end-joining (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02010/reference%3dwhite/default%3d%23bfffbf/K02020/K02018/K02010/K02064/K11069/K11070/K11071/K11072/K02002/K02001/K02000/K05845/K05846/K05847/K10112/K07335/K23535/K23536/K23537/K10439/K10440/K10441/K02040/K02037/K02038/K02036/K02044/K02042/K02041/K10037/K10038/K10039/K10040/K10002/K10009/K10010/K17063/K01999/K01997/K01998/K01995/K01996/K02073/K02072/K02071/K15582/K15583/K10823/K12368/K23186/K23187/K23227/K23228/K03523/K16785/K09690/K09691/K09811/K09812/K11085/K16013/K05685' target='new'>02010</a> ABC transporters (62)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03070/reference%3dwhite/default%3d%23bfffbf/K03072/K03074/K03076/K03217/K03070/K03110/K03106/K03118' target='new'>03070</a> Bacterial secretion system (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02020/reference%3dwhite/default%3d%23bfffbf/K07636/K07776/K02040/K04771/K07665/K07793/K07795/K02259/K07654/K07670/K02313/K18940/K01644/K09477/K11637/K07701/K11615/K00027/K07684/K07689/K01467/K07778/K07693/K11617/K11618/K11623/K11625/K01915/K02106/K00626/K10002/K10914/K01425/K00425/K00426/K01104/K16692/K01791/K02472' target='new'>02020</a> Two-component system (39)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04013/reference%3dwhite/default%3d%23bfffbf/K04564' target='new'>04013</a> MAPK signaling pathway - fly (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04016/reference%3dwhite/default%3d%23bfffbf/K00940/K17686/K03781' target='new'>04016</a> MAPK signaling pathway - plant (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04011/reference%3dwhite/default%3d%23bfffbf/K03781' target='new'>04011</a> MAPK signaling pathway - yeast (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04066/reference%3dwhite/default%3d%23bfffbf/K00510/K00850/K00134/K01689/K00927/K00161/K00162' target='new'>04066</a> HIF-1 signaling pathway (7)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04068/reference%3dwhite/default%3d%23bfffbf/K03781/K04564/K01596' target='new'>04068</a> FoxO signaling pathway (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04070/reference%3dwhite/default%3d%23bfffbf/K01092/K00981' target='new'>04070</a> Phosphatidylinositol signaling system (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04024/reference%3dwhite/default%3d%23bfffbf/K00232' target='new'>04024</a> cAMP signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04151/reference%3dwhite/default%3d%23bfffbf/K01596' target='new'>04151</a> PI3K-Akt signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04152/reference%3dwhite/default%3d%23bfffbf/K00850/K01596' target='new'>04152</a> AMPK signaling pathway (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04080/reference%3dwhite/default%3d%23bfffbf/K05770' target='new'>04080</a> Neuroactive ligand-receptor interaction (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04142/reference%3dwhite/default%3d%23bfffbf/K13444' target='new'>04142</a> Lysosome (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04146/reference%3dwhite/default%3d%23bfffbf/K01796/K00232/K01897/K03426/K00830/K00031/K00306/K01640/K03781/K04564/K11147' target='new'>04146</a> Peroxisome (11)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04138/reference%3dwhite/default%3d%23bfffbf/K06902' target='new'>04138</a> Autophagy - yeast (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04112/reference%3dwhite/default%3d%23bfffbf/K02313/K02314/K03531/K03588/K02563/K11749/K03544/K01358' target='new'>04112</a> Cell cycle - Caulobacter (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04113/reference%3dwhite/default%3d%23bfffbf/K08139' target='new'>04113</a> Meiosis - yeast (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04210/reference%3dwhite/default%3d%23bfffbf/K04727' target='new'>04210</a> Apoptosis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04214/reference%3dwhite/default%3d%23bfffbf/K05770/K04727' target='new'>04214</a> Apoptosis - fly (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04216/reference%3dwhite/default%3d%23bfffbf/K01897/K00657/K00510' target='new'>04216</a> Ferroptosis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04217/reference%3dwhite/default%3d%23bfffbf/K01915/K00688/K04727' target='new'>04217</a> Necroptosis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02024/reference%3dwhite/default%3d%23bfffbf/K01657/K01658/K01626/K02053/K01999/K01997/K01998/K01995/K01996/K01897/K10914/K11752/K09936/K15582/K15583/K10823/K02035/K02033/K02034/K02031/K02032/K03217/K03076/K03070/K03110/K03106' target='new'>02024</a> Quorum sensing (26)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05111/reference%3dwhite/default%3d%23bfffbf/K01791/K02472/K00640/K01912/K07689/K10914' target='new'>05111</a> Biofilm formation - Vibrio cholerae (6)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02025/reference%3dwhite/default%3d%23bfffbf/K10914/K01657/K01658/K07689' target='new'>02025</a> Biofilm formation - Pseudomonas aeruginosa (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02026/reference%3dwhite/default%3d%23bfffbf/K10914/K00694/K07689/K00975/K00703/K00688/K04761/K03566' target='new'>02026</a> Biofilm formation - Escherichia coli (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02030/reference%3dwhite/default%3d%23bfffbf/K10439/K12368' target='new'>02030</a> Bacterial chemotaxis (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko02040/reference%3dwhite/default%3d%23bfffbf/K03086' target='new'>02040</a> Flagellar assembly (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04624/reference%3dwhite/default%3d%23bfffbf/K01446' target='new'>04624</a> Toll and Imd signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04621/reference%3dwhite/default%3d%23bfffbf/K03671' target='new'>04621</a> NOD-like receptor signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04910/reference%3dwhite/default%3d%23bfffbf/K00688/K07192/K01596' target='new'>04910</a> Insulin signaling pathway (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04922/reference%3dwhite/default%3d%23bfffbf/K01596/K00688/K00850/K01834/K00873/K00161/K00162' target='new'>04922</a> Glucagon signaling pathway (7)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04920/reference%3dwhite/default%3d%23bfffbf/K01897/K01596' target='new'>04920</a> Adipocytokine signaling pathway (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko03320/reference%3dwhite/default%3d%23bfffbf/K01897/K00232/K01596/K00864' target='new'>03320</a> PPAR signaling pathway (4)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04915/reference%3dwhite/default%3d%23bfffbf/K09571' target='new'>04915</a> Estrogen signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04919/reference%3dwhite/default%3d%23bfffbf/K00850' target='new'>04919</a> Thyroid hormone signaling pathway (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04614/reference%3dwhite/default%3d%23bfffbf/K01322/K01257' target='new'>04614</a> Renin-angiotensin system (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04975/reference%3dwhite/default%3d%23bfffbf/K00626' target='new'>04975</a> Fat digestion and absorption (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04979/reference%3dwhite/default%3d%23bfffbf/K05770' target='new'>04979</a> Cholesterol metabolism (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04978/reference%3dwhite/default%3d%23bfffbf/K00510/K17686' target='new'>04978</a> Mineral absorption (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04964/reference%3dwhite/default%3d%23bfffbf/K01425/K01596' target='new'>04964</a> Proximal tubule bicarbonate reclamation (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04724/reference%3dwhite/default%3d%23bfffbf/K01425/K01915' target='new'>04724</a> Glutamatergic synapse (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04727/reference%3dwhite/default%3d%23bfffbf/K01425/K01915' target='new'>04727</a> GABAergic synapse (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04728/reference%3dwhite/default%3d%23bfffbf/K01593/K00274' target='new'>04728</a> Dopaminergic synapse (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04726/reference%3dwhite/default%3d%23bfffbf/K01593/K00274' target='new'>04726</a> Serotonergic synapse (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04361/reference%3dwhite/default%3d%23bfffbf/K01593' target='new'>04361</a> Axon regeneration (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04211/reference%3dwhite/default%3d%23bfffbf/K04564/K03781' target='new'>04211</a> Longevity regulating pathway (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04212/reference%3dwhite/default%3d%23bfffbf/K04564/K03781/K01358/K04043/K04077' target='new'>04212</a> Longevity regulating pathway - worm (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04213/reference%3dwhite/default%3d%23bfffbf/K04564/K03781/K03695' target='new'>04213</a> Longevity regulating pathway - multiple species (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04712/reference%3dwhite/default%3d%23bfffbf/K00660' target='new'>04712</a> Circadian rhythm - plant (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04714/reference%3dwhite/default%3d%23bfffbf/K01897/K02257/K02259' target='new'>04714</a> Thermogenesis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04626/reference%3dwhite/default%3d%23bfffbf/K02358/K00864' target='new'>04626</a> Plant-pathogen interaction (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05200/reference%3dwhite/default%3d%23bfffbf/K00510/K01679' target='new'>05200</a> Pathways in cancer (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05206/reference%3dwhite/default%3d%23bfffbf/K00510/K00558/K01425' target='new'>05206</a> MicroRNAs in cancer (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05205/reference%3dwhite/default%3d%23bfffbf/K03685' target='new'>05205</a> Proteoglycans in cancer (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05204/reference%3dwhite/default%3d%23bfffbf/K00121' target='new'>05204</a> Chemical carcinogenesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05203/reference%3dwhite/default%3d%23bfffbf/K00873' target='new'>05203</a> Viral carcinogenesis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05230/reference%3dwhite/default%3d%23bfffbf/K00873/K00161/K00162/K01425/K00036/K00850/K01834/K00031' target='new'>05230</a> Central carbon metabolism in cancer (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05225/reference%3dwhite/default%3d%23bfffbf/K00510' target='new'>05225</a> Hepatocellular carcinoma (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05211/reference%3dwhite/default%3d%23bfffbf/K01679' target='new'>05211</a> Renal cell carcinoma (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05219/reference%3dwhite/default%3d%23bfffbf/K00758' target='new'>05219</a> Bladder cancer (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05340/reference%3dwhite/default%3d%23bfffbf/K01488/K03648' target='new'>05340</a> Primary immunodeficiency (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05010/reference%3dwhite/default%3d%23bfffbf/K00134' target='new'>05010</a> Alzheimer disease (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05012/reference%3dwhite/default%3d%23bfffbf/K00274/K03671' target='new'>05012</a> Parkinson disease (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05014/reference%3dwhite/default%3d%23bfffbf/K03781' target='new'>05014</a> Amyotrophic lateral sclerosis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05016/reference%3dwhite/default%3d%23bfffbf/K04564' target='new'>05016</a> Huntington disease (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05022/reference%3dwhite/default%3d%23bfffbf/K03781' target='new'>05022</a> Pathways of neurodegeneration - multiple diseases (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05030/reference%3dwhite/default%3d%23bfffbf/K01593/K00274' target='new'>05030</a> Cocaine addiction (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05031/reference%3dwhite/default%3d%23bfffbf/K01593/K00274' target='new'>05031</a> Amphetamine addiction (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05034/reference%3dwhite/default%3d%23bfffbf/K01593/K00274' target='new'>05034</a> Alcoholism (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05418/reference%3dwhite/default%3d%23bfffbf/K00510/K03671/K01940' target='new'>05418</a> Fluid shear stress and atherosclerosis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04930/reference%3dwhite/default%3d%23bfffbf/K00873' target='new'>04930</a> Type II diabetes mellitus (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04940/reference%3dwhite/default%3d%23bfffbf/K04077' target='new'>04940</a> Type I diabetes mellitus (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04931/reference%3dwhite/default%3d%23bfffbf/K00688/K01596/K00820' target='new'>04931</a> Insulin resistance (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko04934/reference%3dwhite/default%3d%23bfffbf/K01679' target='new'>04934</a> Cushing syndrome (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05130/reference%3dwhite/default%3d%23bfffbf/K00134' target='new'>05130</a> Pathogenic Escherichia coli infection (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05132/reference%3dwhite/default%3d%23bfffbf/K00134/K03671' target='new'>05132</a> Salmonella infection (2)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05134/reference%3dwhite/default%3d%23bfffbf/K04077/K00239/K03596' target='new'>05134</a> Legionellosis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05152/reference%3dwhite/default%3d%23bfffbf/K02040/K04043/K04077' target='new'>05152</a> Tuberculosis (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05166/reference%3dwhite/default%3d%23bfffbf/K05770' target='new'>05166</a> Human T-cell leukemia virus 1 infection (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05165/reference%3dwhite/default%3d%23bfffbf/K00873' target='new'>05165</a> Human papillomavirus infection (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05142/reference%3dwhite/default%3d%23bfffbf/K01354' target='new'>05142</a> Chagas disease (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko05143/reference%3dwhite/default%3d%23bfffbf/K01354' target='new'>05143</a> African trypanosomiasis (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01501/reference%3dwhite/default%3d%23bfffbf/K01207/K01467/K15582/K15583/K10823/K17836/K05366/K03587' target='new'>01501</a> beta-Lactam resistance (8)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01502/reference%3dwhite/default%3d%23bfffbf/K01921/K01775/K01929/K01000/K02563' target='new'>01502</a> Vancomycin resistance (5)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01503/reference%3dwhite/default%3d%23bfffbf/K19239/K01448/K04771' target='new'>01503</a> Cationic antimicrobial peptide (CAMP) resistance (3)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01524/reference%3dwhite/default%3d%23bfffbf/K17686' target='new'>01524</a> Platinum drug resistance (1)</p>
+<p class='trd'><a href='https://www.kegg.jp/kegg-bin/show_pathway?ko01523/reference%3dwhite/default%3d%23bfffbf/K00600/K00297/K00602' target='new'>01523</a> Antifolate resistance (3)</p>
+   <br>
+
+   <div class="ko_menu">
+
+    <ul>
+     <li>[<a href='kaas_main?mode=user&amp;id=1610356547&amp;key=Hc2IiYZB'>Query list</a>]</li>
+     <li>[<a href='kaas_main?mode=result&amp;id=1610356547&amp;key=Hc2IiYZB'>KO list</a>]</li>
+     <li>[<a href='kaas_main?mode=brite&amp;id=1610356547&amp;key=Hc2IiYZB'>BRITE hierarchies</a>]</li>
+      <li>[Pathway map]</li>
+      <li>[<a href='kaas_main?mode=threshold&amp;id=1610356547&amp;key=Hc2IiYZB'>Threshold change</a>]</li>
+      <li>[<a href='/tools/kaas/files/dl/1610356547/query.ko'>Download KO list</a>]</li>
+    </ul>
+   </div>
+
+   <br>
+
+  </div>
+
+  <div class="menu">
+   <ul>
+    <li><a href="/feedback/?category=kaas">Feedback</a></li>
+    <li><a href="/kegg/kegg2.html" target="_top">KEGG2</a></li>
+    <li><a href="/kegg/" target="_top">KEGG</a></li>
+    <li><a href="/" target="_top">GenomeNet</a></li>
+    <li class="lab"><a href="http://kegg.org/" target="_top">Kanehisa Lab.</a></li>
+   </ul>
+  </div>
+  <!-- gn03 -->
+  </body>
+</html>
+
